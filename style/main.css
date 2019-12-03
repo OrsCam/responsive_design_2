@@ -1,0 +1,177 @@
+header {
+    width:100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bg-bleu {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-rouge {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+
+.bg-vert {
+    width: 50%;
+    height: 500px;
+    background-color: green;
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-jaune {
+    width: 25%;
+    height: 500px;
+    background-color: yellow;
+}
+
+.bg-rose {
+    width: 25%;
+    height: 500px;
+    background-color: pink;
+}
+
+.bg-marron {
+    width: 25%;
+    height: 500px;
+    background-color: maroon;
+}
+
+.bg-violet {
+    width: 25%;
+    height: 500px;
+    background-color: purple;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .container-middle {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bg-rouge {
+        width: 100%;
+        height: 500px;
+        background-color: red;
+    }
+    
+    .bg-vert {
+        width: 100%;
+        height: 500px;
+        background-color: green;
+    }
+    
+    .container-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bg-jaune {
+        width: 50%;
+        height: 500px;
+        background-color: yellow;
+    }
+    
+    .bg-rose {
+        width: 50%;
+        height: 500px;
+        background-color: pink;
+    }
+    
+    .bg-marron {
+        width: 50%;
+        height: 500px;
+        background-color: maroon;
+    }
+    
+    .bg-violet {
+        width: 50%;
+        height: 500px;
+        background-color: purple;
+    }
+    
+    footer {
+        width: 100%;
+        height: 40px;
+    }
+
+    @media (max-width: 320px) {
+    
+        .container-bottom {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .bg-jaune {
+            width: 100%;
+            height: 500px;
+            background-color: yellow;
+        }
+        
+        .bg-rose {
+            width: 100%;
+            height: 500px;
+            background-color: pink;
+        }
+        
+        .bg-marron {
+            width: 100%;
+            height: 500px;
+            background-color: maroon;
+        }
+        
+        .bg-violet {
+            width: 100%;
+            height: 500px;
+            background-color: purple;
+        }
+        
+        footer {
+            width: 100%;
+            height: 40px;
+        }
+
+    }
+}
